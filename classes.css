@@ -1,0 +1,74 @@
+h1,h2,h3,h4{
+    color: #575757;
+    }
+    
+    section{
+        padding: 10px 70px;
+    }
+    
+    a{
+        text-decoration: none;
+        transition: 0.5s ease-in-out;
+    }
+    
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    /* Some Classes */
+    
+    .section-heading{
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: 500;
+    }
+    
+    .main-color{
+    color: #f13150;
+    }
+    
+    
+    /* Cta Btn */
+    
+    .cta-btn{
+        display: inline-block;
+        padding: 16px 40px;
+        background-image: linear-gradient(to right, rgb(241, 49, 80), rgb(212, 29, 34));
+        color: #fff;
+        border-radius: 50px;
+        transition: 0.5s ease-in-out;
+        box-shadow: 2px 2px 10px  rgb(212, 29, 34);
+    }
+    
+    .cta-btn:hover{
+        transform: scale(1.07);
+    }
+    
+    /* layout */
+    .d-flex{
+        display: flex;
+        gap: 30px;
+    }
+    
+    .d-flex-2 > div{
+        width: 50%;
+    }
+    
+    .d-flex-3 > div{
+        width: 33%;
+    }
+    
+
+
+    .jc-c{
+        justify-content: center;
+    }
+    
+    .jc-sb{
+        justify-content: space-between;
+    }
+    
+    .ai-c{
+        align-items: center;
+    }

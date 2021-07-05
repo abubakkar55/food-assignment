@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* header Start */
+.header{
+    padding: 20px 50px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.header .header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo{
+    display: flex;
+font-size: 25px;
+font-weight: 900;
+color: #828282;
+}
+
+.header .logo img{
+    margin: -5px 5px 0 0;
+width: 33px;
+}
+
+.header .navbar ul{
+display: flex;
+}
+
+.header .navbar li{
+margin-right: 25px;
+}
+
+.header .navbar ul a{
+    font-weight: 500;
+color: #828282;
+}
+
+ .navbar ul li a:hover,
+ .header .logo:hover,
+ .header .social-links a:hover{
+    color: #f13150;
+}
+
+.header .social-links a{
+color: #828282;
+font-size: 18px;
+margin-right: 7px;
+}
+
+/* header End */
+
+
+
+/* hero start */
+
+.hero .hero-left{
+    padding-top: 50px;
+}
+
+.hero .hero-heading{
+font-size: 50px;
+font-weight: 700;
+}
+
+.hero .hero-left .description{
+    line-height: 1.5;
+font-size: 17px;
+color: #828282;
+margin-bottom: 30px;
+padding-right: 100px;
+}
+
+.hero .hero-right {
+    height: 508px;
+background: url(images/shapes/Group\ 8447.png) no-repeat;
+background-size: 70%;
+background-position: 70% 50%;
+}
+.hero .hero-right  img{
+width: 90%;
+margin-left: 50px;
+}
+
+
+
+
+/* hero End */
