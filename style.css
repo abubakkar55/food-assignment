@@ -88,7 +88,7 @@ html {
     animation: from-right 1s 0.4s linear;
     padding-top: 30px;
     height: 508px;
-    background: url(images/shapes/Group\ 8447.png) no-repeat 70% 50%;
+    background: url(images/shapes/Group-min.png) no-repeat 70% 50%;
     background-size: 57%;
 }
 
@@ -105,7 +105,7 @@ html {
     padding-bottom: 20px;
     height: 75vh;
     margin: 50px 0;
-    background: url(images/shapes/Frame.jpg) no-repeat center center;
+    background: url(images/shapes/Frame-min.jpg) no-repeat center center;
     background-size: cover;
 }
 
