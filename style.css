@@ -3,6 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 
@@ -65,6 +66,7 @@ body {
 .hero .hero-heading {
     font-size: 50px;
     font-weight: 700;
+    animation: from-left 1s  0.2s linear;
 }
 
 .hero .hero-left .description {
@@ -73,9 +75,15 @@ body {
     color: #828282;
     margin-bottom: 30px;
     padding-right: 100px;
+    animation: from-bottom 1s  0.4s linear;
+}
+.hero .hero-left a.cta-btn {
+    animation: from-bottom 1s  0.5s linear;
 }
 
 .hero .hero-right {
+    animation: from-right 1s  0.4s linear;
+
     padding-top: 30px;
     height: 508px;
     background: url(images/shapes/Group\ 8447.png) no-repeat 70% 50%;
@@ -120,9 +128,7 @@ body {
 
 
 /* recipie Start */
-.recipie{
-    margin-bottom: 50px;
-}
+
 .recipie .recipie-hading {
     text-align: center;
 }
@@ -167,7 +173,7 @@ body {
 /* follower Start */
 
 .follower{
-    margin-bottom: 50px;
+    margin: 25px 0 60px;
     text-align: center;
 }
 .follower-container{
@@ -192,7 +198,35 @@ font-size: 15px;
 .follower  .follow-item .color{
 color: #f13150;
 }
-
-
 /* follower end */
 
+
+/* footer Start */
+.footer{
+    padding-top: 50px;
+ text-align: center;
+    height: 250px;
+    background: #0B0D17;
+}
+
+.footer h1{
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    color: #c7c5c5;
+}
+
+.footer h1 span{
+    color: #f13150;
+    background-image: linear-gradient(to right, rgb(241, 49, 80), rgb(212, 29, 34));
+    background-clip: text;
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer p{
+    color: #fff;
+}
+
+
+
+/* footer End */
