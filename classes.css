@@ -54,9 +54,7 @@ ul {
     color: #f13150;
 }
 
-
 /* Cta Btn */
-
 .cta-btn {
     display: inline-block;
     padding: 16px 40px;
@@ -77,11 +75,11 @@ ul {
     gap: 30px;
 }
 
-.d-flex-2>div {
+.d-flex-2 > div {
     width: 50%;
 }
 
-.d-flex-3>div {
+.d-flex-3 > div {
     width: 30%;
 }
 
@@ -89,35 +87,36 @@ ul {
     align-items: center;
 }
 
+/* animations */
 @keyframes from-left {
-0%{
-    opacity: 0;
-    transform: translateX(-100%);
-}
-    100%{
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
         opacity: 1;
         transform: translateX(0);
     }
 }
+
 @keyframes from-right {
-0%{
-    opacity: 0;
-    transform: translateX(100%);
-}
-    100%{
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100% {
         opacity: 1;
         transform: translateX(0);
     }
 }
 
 @keyframes from-bottom {
-0%{
-    opacity: 0;
-    transform: translateY(100%);
-}
-    100%{
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100% {
         opacity: 1;
         transform: translateX(0);
     }
 }
-
